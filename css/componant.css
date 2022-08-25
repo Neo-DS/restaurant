@@ -173,6 +173,9 @@ footer{
 .colunm4 > svg{
     color: var(--black-1);
 }
+.github{
+    color: var(--black-2);
+}
 /* end footer style */
 
 /* start hero style */
