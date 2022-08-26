@@ -1,3 +1,21 @@
+/* scroll btn style */
+.scroll-btn{
+    background-color: transparent;
+    border: none;
+    color: var(--green-1);
+    margin:5rem;
+    right: 0;
+    bottom: 0;
+    position: fixed; 
+    cursor: pointer;
+    
+}
+.scroll-btn svg:hover{
+    color: rgb(16, 134, 5);
+}
+
+/* end scroll btn style */
+
 /* nav styles */
 .nav{
     padding: 2rem 0;
@@ -172,9 +190,6 @@ footer{
 }
 .colunm4 > svg{
     color: var(--black-1);
-}
-.github{
-    color: var(--black-2);
 }
 /* end footer style */
 

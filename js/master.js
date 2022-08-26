@@ -26,7 +26,6 @@ navCloseEl.addEventListener('click', navClose);
 
 navBgOverlayEl.addEventListener('click', navClose)
 
-
 //aos
 AOS.init({
   offset: 200 , 
@@ -36,4 +35,15 @@ AOS.init({
   once: false, 
   mirror: false, 
   anchorPlacement: 'top-bottom', 
+})
+//scroll to top button
+const scrollBtn = document.querySelector('.scroll-btn');
+
+scrollBtn.addEventListener('click',() => {
+  window.scroll({
+    top: 0, 
+    left: 0, 
+    behavior:'smooth'
+  });
+  
 })
